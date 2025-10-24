@@ -102,7 +102,7 @@ if __name__ == "__main__":
     print(f"Usando dispositivo: {device}\n")
 
     # Define o diretório onde os arquivos CSV estão localizados
-    file_directory_path = "/home/wytcor/PROJECTs/EDA-sentences/data/sentences-of-image-description" # sentences-of-patient-data-description" # "vllms-and-llms-sentences"
+    file_directory_path = "./data/sentences-of-image-description" # sentences-of-patient-data-description" # "vllms-and-llms-sentences"
 
     # Lista todos os arquivos no diretório e filtra os CSVs
     csv_files_in_dir = [f for f in os.listdir(file_directory_path) if f.endswith('.csv')]
