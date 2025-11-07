@@ -92,9 +92,9 @@ def main():
 
     # Diretório base (igual ao original)
     base_dir = "./data/ICs- Vitor e Ana/DATASETS - LLMs e VLMs/IMAGE_DESCRIPTION/sentences-of-image-description"
-    model_name = "all-MiniLM-L6-v2"
+    model_name = "emilyalsentzer/Bio_ClinicalBERT"
     reducer_method = "umap"
-    min_cluster_size = 5
+    min_cluster_size = 2
 
     output_root = "./results"
     os.makedirs(output_root, exist_ok=True)
