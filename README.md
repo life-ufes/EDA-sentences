@@ -50,6 +50,14 @@ This script automatically combines the t-SNE projections of different sentence c
     python3 src/scripts/join_images.py
 ```
 
+It'll generate a jointed image which contains 3 subplots about: llm, vlm,and llm and vlm together, respectivelly.
+![Subplot of the TSNE projections](./images/jointed_tsne_results/jointed_tsne_results.png)
+
+# To deactivate an active environment, use
+```bash
+    conda deactivate
+```
+
 # HDBSCAN 
 
 Clustering of sentences using HDBSCAN
@@ -68,12 +76,4 @@ Just adjust the variables content:
 obs.: It's not necessary to define a k_min (number of clusters).
 ```bash
     python3 src/scripts/eva_num_clusters_HDBSCAN.py
-```
-
-It'll generate a jointed image which contains 3 subplots about: llm, vlm,and llm and vlm together, respectivelly.
-![Subplot of the TSNE projections](./images/jointed_tsne_results/jointed_tsne_results.png)
-
-# To deactivate an active environment, use
-```bash
-    conda deactivate
 ```
