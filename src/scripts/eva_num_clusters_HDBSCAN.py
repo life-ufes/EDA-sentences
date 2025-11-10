@@ -91,8 +91,8 @@ def main():
     logging.info(f"Usando dispositivo: {device}\n")
 
     # Diretório base (igual ao original)
-    base_dir = "./data/ICs- Vitor e Ana/DATASETS - LLMs e VLMs/IMAGE_DESCRIPTION/sentences-of-image-description"
-    model_name = "emilyalsentzer/Bio_ClinicalBERT"
+    base_dir = "./data/ICs- Vitor e Ana/DATASETS - LLMs e VLMs/IMAGE_DESCRIPTION/vlmsentences/PAD20/qwen2.5vl"
+    model_name = "neuralmind/bert-base-portuguese-cased"
     reducer_method = "umap"
     min_cluster_size = 2
 
